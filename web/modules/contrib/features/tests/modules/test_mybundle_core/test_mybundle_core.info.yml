@@ -1,0 +1,12 @@
+name: Test Core
+type: module
+core_version_requirement: '^9.4 || ^10'
+package: Test
+# Ensure features is enabled first
+dependencies:
+  - features:features
+
+# Information added by Drupal.org packaging script on 2023-04-15
+version: '5.0.0-alpha1'
+project: 'features'
+datestamp: 1681517066
